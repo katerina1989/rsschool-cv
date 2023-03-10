@@ -1,0 +1,78 @@
+*{  box-sizing: border-box;
+    margin: 0;
+}
+
+.resume {
+    background:linear-gradient(45deg,#f6f6b5,#f1f3ea 60% );
+    padding:15px 25px;
+    border:3px solid #f0e964 ;
+    width: 854px;
+    height: 900px;
+    }
+    
+header {
+    display: flex;
+    justify-content:space-around;
+    margin-bottom:25px;
+}
+
+.header_contacts {
+    border-bottom:3px solid #ede62c;
+}
+    
+.name {
+    padding-bottom: 50px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.foto {
+    width: 200px;  
+    height:300px;
+    margin-bottom: 20px;
+}
+
+.education  {
+padding-left:90px;
+padding-bottom:25px;
+}
+
+.skills_hobbyes {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:25px;
+} 
+
+.skills {
+    padding-left: 50px;
+    margin:unset;
+    width: 400px;
+}
+
+.hobbyes {
+    padding-left: 50px;
+    margin: unset;
+    width: 400px;
+}
+
+.work {
+    text-align: center;
+}
+
+.work_work {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.work_history {
+    padding-left: 50px;
+    margin: unset;
+    width: 400px;
+}
+
+li {
+    margin-bottom: 15px;  
+}
